@@ -1,0 +1,85 @@
+
+:root{
+	--color-negro:#282d33;
+	--menu-hover:#ec3642;
+	--color-rojo:#ec3642;
+	--fondo-header:#212121;
+	--fondo-footer:#212121;
+	--color-footer:#ccc;
+}
+body{
+
+	font-size: 14px;
+}
+header{
+	position: relative;
+	background-color: #282932;
+	width: 100%;
+	top:0;
+	border-bottom: 1px dashed rgba(255, 255, 255, 0.15);
+
+}
+
+#banner{
+
+background-image: url(/ejercicioExtra/img/bg-hero.jpg);
+background-position: top center;
+background-size: cover;
+padding: 10% 0;
+color: #fff;
+text-align: right;
+}
+
+#banner a{
+	border-radius: 0px;
+	border-color: #fff;
+}
+
+#welcome{
+	text-align: center;
+	text-transform: uppercase;
+	padding: 40px;
+	
+
+}
+
+.icons-grupo{
+	padding: 20px;
+}
+
+.icon h3{
+	text-align: center;
+}
+
+footer{
+	background-color: var(--fondo-footer);
+	padding: 200px;
+}
+
+footer h3{
+	text-transform: uppercase;
+	font-size: 13px;
+	color: #ccc;
+	
+}
+
+footer{
+	background-color: #282932;
+	background-image: url(../img/footer-bg.png);
+	background-size: cover;
+	padding-top: 40px;
+	color: rgba(255, 255, 255, 0.55);
+	text-align: center;
+	font-size: 13px;
+	font-weight: 600;
+}
+footer p span{
+	color: #f7b614;
+}
+footer #copy{
+	padding: 20px 0;
+	margin-top: 5%;
+	color: #fff;
+	border-top: 1px dashed rgba(255, 255, 255, 0.15);
+}
+
